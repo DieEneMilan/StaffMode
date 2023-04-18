@@ -1,3 +1,7 @@
 name: StaffMode
 version: '${project.version}'
 main: com.foxdev.staffmode.StaffMode
+commands:
+  staffmode:
+    description: Staff Modes
+    permission: staffmode.use
